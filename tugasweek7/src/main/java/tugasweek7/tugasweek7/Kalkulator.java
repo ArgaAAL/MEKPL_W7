@@ -1,4 +1,5 @@
 package tugasweek7.tugasweek7;
+import java.util.Scanner;
 
 import java.util.Scanner;
 
@@ -12,8 +13,10 @@ public class Kalkulator {
         System.out.print("Masukkan angka kedua: ");
         int angka2 = input.nextInt();
 
-        int hasil = angka1 + angka2;
+        int hasilJumlah = angka1 + angka2;
+        System.out.println("Hasil penjumlahan: " + hasilJumlah);
 
-        System.out.println("Hasil penjumlahan: " + hasil);
+        int hasilKurang = angka1 - angka2;
+        System.out.println("Hasil pengurangan: " + hasilKurang);
     }
 }
