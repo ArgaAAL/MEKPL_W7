@@ -1,7 +1,7 @@
 package tugasweek7.tugasweek7;
 import java.util.Scanner;
 
-import java.util.Scanner;
+//CEK GIT PULL
 
 public class Kalkulator {
     public static void main(String[] args) {
